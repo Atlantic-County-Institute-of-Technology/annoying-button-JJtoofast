@@ -9,11 +9,17 @@ margin-top: 225px;
 font-weight: bolder;
 font-size: 45px;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-box-shadow: -1px 10px 1px 3.5px gray;
+box-shadow: -1px 10px 1px 3.5px black;
 text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
 }
 #button1:active {
     background-color: red;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
+}
+#text{
+    margin-top: 150px;
+    margin-left: 740px;
+    font-size: 28px;
+    font-weight: 700;
 }
