@@ -27,6 +27,7 @@ text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 bl
 /*.angry{
     animation: 5s back-and-forth ease-in-out infinite;
     transform: translate(0,0);
+    background-color: darkred !important;
 }*/
 #button1:active {
     background-color: red;
