@@ -14,6 +14,7 @@ function yell_at_user() {
         text.innerHTML = "I SAID STOP!";
     }     
     else if( clicks == 10 ) {
+      button1.classList.add("angry");
         text.innerHTML = "Seriously Your such a child !";
     }       
     else if( clicks == 15 ) {
@@ -35,9 +36,49 @@ function yell_at_user() {
      else if( clicks == 40 ) {
             text.innerHTML = " THINK FAST CHUCKLEHEAD !";
               
+     } 
+     else if( clicks == 45){ 
+        text.innerHTML = "NOW STOP IT YOUR BREAKING THE LAW #######"
      }
         
     }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        let   = document.getElementById("text");
+    let button2= document.getElementById("button2")
 
 
