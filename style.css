@@ -24,11 +24,23 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 box-shadow: -1px 10px 1px 3.5px black;
 text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
 } 
-/*.angry{
-    animation: 5s back-and-forth ease-in-out infinite;
+.angry{
+    animation: 5s back-and-forth ease-in-out;
     transform: translate(0,0);
-    background-color: darkred !important;
-}*/
+    background-color: darkred !important; 
+    height: 400px;
+    width: 400px;
+}
+.Really-Angry{
+    background-color: whitesmoke !important;
+    width: 415px;
+    height: 415px;
+}
+.REALLY-REALLY-ANGRY{
+    background-color: black !important;
+    width: 500px;
+    height: 500px;
+}
 #button1:active {
     background-color: red;
     box-shadow: 0 5px #666;
@@ -41,8 +53,7 @@ text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 bl
     font-weight: 700;
 } 
 #button2{
-    color: white;
-background-color: green;
+background-color: darkgreen;
 position: absolute;
 width: 300px;
 height: 300px;

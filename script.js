@@ -18,6 +18,7 @@ function yell_at_user() {
         text.innerHTML = "Seriously Your such a child !";
     }       
     else if( clicks == 15 ) {
+        button1.classList.remove("angry");
         text.innerHTML = " IM GOING TO FIND YOU !";
     }       
     else if( clicks == 20 ) {
@@ -25,9 +26,11 @@ function yell_at_user() {
     }       
 
     else if( clicks == 25 ) {
+        button1.classList.add("Really-Angry");
         text.innerHTML = " IM 100 YARDS OUT OF YOUR CURRENT LOCATION AND IM CLOSING IN FAST !";
     }       
     else if( clicks == 30 ) {
+        button1.classList.remove("Really-Angry");
         text.innerHTML = " IM OUTSIDE YOUR DOOR OPEN UP NOW !";
     }       
     else if( clicks == 35 ) {
@@ -38,10 +41,18 @@ function yell_at_user() {
               
      } 
      else if( clicks == 45){ 
-        text.innerHTML = "NOW STOP IT YOUR BREAKING THE LAW #######"
+        text.innerHTML = "NOW STOP IT YOUR BREAKING THE LAW #######!";
+     }
+     else if( clicks == 50){
+        button1.classList.add("REALLY-REALLY-ANGRY")
+        text.innerHTML = "OH YOUR SO FUNNY!"; 
+     }
+     else if( clicks == 55){
+      
+        text.innerHTML = "STOP TOUCHING ME ! ";
      }
         
-    }
+    } 
 
 
 
@@ -78,7 +89,8 @@ function yell_at_user() {
 
 
 
-        let   = document.getElementById("text");
-    let button2= document.getElementById("button2")
+
+
+
 
 
