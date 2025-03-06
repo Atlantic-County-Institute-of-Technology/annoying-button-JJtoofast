@@ -1,11 +1,14 @@
 let text = document.getElementById("text");
 let button1= document.getElementById("button1")
 
+let laugh = new Audio('assets/Sonic_LAUGH.mp3');
+
 let clicks=0;
 
 button1.addEventListener("click", yell_at_user);
 
-function yell_at_user() {  
+function yell_at_user() {
+   
     clicks++;     
     if( clicks == 1 ){ 
         text.innerHTML = "Hey! Stop that!";
@@ -44,6 +47,7 @@ function yell_at_user() {
         text.innerHTML = "NOW STOP IT YOUR BREAKING THE LAW #######!";
      }
      else if( clicks == 50){
+        laugh.play("Sonic_LAUGH.mp3");
         button1.classList.add("REALLY-REALLY-ANGRY")
         text.innerHTML = "OH YOUR SO FUNNY!"; 
      }
