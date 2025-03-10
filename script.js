@@ -4,6 +4,7 @@ let button2= document.getElementById("button2")
 
 let laugh = new Audio('assets/Sonic_LAUGH.mp3'); 
 let yay = new Audio('assets/Yayyyy.mp3'); 
+let Good_Boy = new Audio('assets/Good_Boy.mp3')
 
 let right_clicks=0;
 let left_clicks=0;
@@ -75,10 +76,18 @@ function yell_at_user() {
         else if( left_clicks == 5 ) {
             text.innerHTML = "Only A couple of more times !";
         }     
-        else if( left_clicks == 10 ) {
-            yay.play(Yayyyy.mp3)
+        else if( left_clicks == 10) {
+            text.innerHTML = "keep clicking only 5 more";
+        }
+        else if( left_clicks == 15) {
+            Good_Boy.play(Good_Boy.mp3)
+            text.innerHTML = "Whoops I lied keep clicking like a good boy";
+        }
+        else if( left_clicks == 20) {
+            yay.play()
           button2.classList.add("happy");
             text.innerHTML = "YOU WON THE GAME !";
+            button2.classList.add("change_color");
     }
     }
        

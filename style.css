@@ -67,11 +67,28 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 box-shadow: -1px 10px 1px 3.5px black;
 text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
 }
+@keyframes change_color {
 
-.button2 .happy{ 
+    from {
+        background-color: #6666ff;
+      }
+      10% {
+          background-color: #0099ff;
+      }
+      50% {
+          background-color: #00ff00;
+      }
+      75% {
+          background-color: #ff3399;
+      }
+      100% {
+          background-color: #6666ff;
+      }
+}
+.happy{ 
     background-color: linear-gradient( 
         90deg,
-        rgba(255, 0, 0, 1) 0%,
+        rgb(255, 0, 0 , 1 ) 0%,
         rgba( 255, 154, 0 , 1) 10%,
         rgba( 208, 222, 33, 1) 20%,
         rgba( 79, 220, 74, 1) 30%,
@@ -84,3 +101,9 @@ text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 bl
          rgba(255, 0, 0, 1) 100%
     );
 }
+.change_color {
+    animation: change_color 1.5s linear infinite;
+}
+
+
+
